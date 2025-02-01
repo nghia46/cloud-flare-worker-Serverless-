@@ -1,0 +1,8 @@
+name = "my-worker"
+main = "src/index.ts"
+compatibility_date = "2025-02-01"
+
+[[d1_databases]]
+binding = "DB" # Tên biến để truy cập database trong Worker
+database_name = "my-d1-db" # Tên database bạn đã tạo
+database_id = "a9732e96-3340-4df4-a805-0b328df16e3f" # Database ID từ Cloudflare Dashboard
